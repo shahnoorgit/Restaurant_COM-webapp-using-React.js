@@ -1,0 +1,23 @@
+.Container{
+  max-width:100%;
+  background-image: url("bg.png");
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+  height: 467px;
+ 
+}
+
+@media (max-width: 768px) {
+  .Container {
+   height: 100%;
+  }
+}
+
+.Container::-webkit-scrollbar{
+  display: none;
+}

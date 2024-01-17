@@ -1,0 +1,80 @@
+.Cards{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.Blurimg{
+  display: flex;
+  gap: 17px;
+  background-image: url("R1.png");
+  background-size: contain;
+  background-blend-mode: overlay, normal;
+  width: 340px;
+  height: 167px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  order: 0.659px solid #98F9FF;
+  border-radius: 19.447px;
+}
+.Profile{
+  border-radius: 133px;
+}
+.Profile img{
+  box-shadow: 0px 5.7px 9.5px 0px rgba(0, 0, 0, 0.25);
+  background: url("Ellipse 1.png"), lightgray 50% / cover no-repeat, #D9D9D9;
+  box-shadow: 0px 5.7px 9.5px 0px rgba(0, 0, 0, 0.25);
+  width: 133px;
+height: 133px;
+flex-shrink: 0;
+}
+
+#Filterbtn{
+    padding: 4px 6px;
+    border-radius: 5px;
+    background: #FF4343;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    margin-left: 124px;
+
+}
+.Content{
+  width: 168px;
+  height: 59px;
+  margin: 5px;
+   
+}
+
+.Content h1{
+  margin-top: -30px;
+  margin-bottom: 25px;
+  color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.Content p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}

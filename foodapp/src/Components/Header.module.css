@@ -1,0 +1,66 @@
+.MainCon{
+  display: flex;
+  flex-direction: column;
+  background: #323334;
+  max-width: 100vw;
+  padding: 50px 120px 31px 120px;
+  gap: 54px;
+  height: 36vh;
+}
+
+@media (max-width: 768px) {
+  .Top {
+    flex-direction: column;
+    height: 10%;
+    gap: 20px;
+    /* Adjust width, margins, padding, etc. for smaller viewport */
+  }
+
+  .Filters{
+    margin-top: 50px;
+  }
+  .MainCon{
+    padding-top: 11px;
+    height: 26vh;
+  }
+}
+
+.Top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#inp{
+  padding: 11px 157px 10px 15px;
+  background: transparent;
+  border-radius: 5px;
+ border: 1px solid #FF0909;
+ color: #FFF;
+ font-family: Inter;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+.Filters{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#Filterbtn{
+  padding: 6px 12px;
+  border-radius: 5px;
+  background: #FF4343;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  &:hover{
+    background-color: #FF0909;
+  }
+   
+}
